@@ -1,0 +1,35 @@
+{
+  "name": "google-workplace-mcp",
+  "version": "1.0.0",
+  "description": "Google Workspace MCP server for Cursor",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "node esbuild.config.js",
+    "dev": "node esbuild.config.js --watch",
+    "start": "node dist/index.js"
+  },
+  "keywords": ["mcp", "google-workspace", "cursor"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dave-Nguyen-PM/google-workplace-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Dave-Nguyen-PM/google-workplace-mcp/issues"
+  },
+  "homepage": "https://github.com/Dave-Nguyen-PM/google-workplace-mcp#readme",
+  "dependencies": {
+    "@google-cloud/local-auth": "^3.0.1",
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "google-auth-library": "^9.15.1",
+    "googleapis": "^146.0.0",
+    "open": "^10.1.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "esbuild": "^0.25.1",
+    "typescript": "^5.8.2"
+  }
+}
