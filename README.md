@@ -2,6 +2,8 @@
 
 An MCP (Model Context Protocol) server that provides Cursor with tools to interact with Google Workspace: Gmail, Calendar, Drive, Docs, Sheets, Slides, Chat, and People.
 
+**Repository:** [github.com/Dave-Nguyen-PM/google-workplace-mcp](https://github.com/Dave-Nguyen-PM/google-workplace-mcp)
+
 ## Prerequisites
 
 - Node.js >= 20
